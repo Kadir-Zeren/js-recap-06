@@ -101,10 +101,52 @@
 // let str = "You do not know what you do not know until you know.";
 // console.log(findCount(str, "know"));
 
-let str = "Hello John, welcome to Clarusway.";
+// let str = "Hello John, welcome to Clarusway.";
 
-console.log(str.lastIndexOf("o"));
-console.log(str.lastIndexOf("o", 6));
-console.log(str.lastIndexOf("O", 6));
+// console.log(str.lastIndexOf("o"));
+// console.log(str.lastIndexOf("o", 6));
+// console.log(str.lastIndexOf("O", 6));
 
-console.log(str.indexOf("o"));
+// console.log(str.indexOf("o"));
+
+// let str = "You do not KNOW what you do not know until you know.";
+
+// console.log(str.search("know"));
+// console.log(str.search(/know/));
+// console.log(str.search(/know/i));
+// console.log(str.search(/klow/i));
+
+// let str1 = "hello World";
+// const arama = /[A-Z]/;
+// const arama2 = /[a-z]/;
+
+// console.log(str1.search(arama));
+
+// let str = "Mr Brown has a brown house and a brown car";
+
+// let newStr = str.replace("brown", "red");
+// let newStr2 = str.replace(/brown/i, "red");
+// let newStr3 = str.replace(/brown/gi, "red");
+// let newStr4 = str.replace(/brown/g, "red");
+
+// console.log(newStr);
+// console.log(newStr2);
+// console.log(newStr3);
+// console.log(newStr4);
+
+// let str = "Mr Brown has a brown house and a brown car";
+
+// console.log(str.replaceAll("Brown", "red"));
+
+let str = "Welcome to: Full Stack";
+
+console.log(str.split());
+console.log(str.split(" "));
+console.log(str.split(":"));
+console.log(str.split("Full"));
+console.log(str.split("full"));
+
+let arr = str.split(" ");
+
+console.log(arr);
+console.log(str);
