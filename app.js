@@ -138,15 +138,47 @@
 
 // console.log(str.replaceAll("Brown", "red"));
 
-let str = "Welcome to: Full Stack";
+// let str = "Welcome to: Full Stack";
 
-console.log(str.split());
-console.log(str.split(" "));
-console.log(str.split(":"));
-console.log(str.split("Full"));
-console.log(str.split("full"));
+// console.log(str.split());
+// console.log(str.split(" "));
+// console.log(str.split(":"));
+// console.log(str.split("Full"));
+// console.log(str.split("full"));
 
-let arr = str.split(" ");
+// let arr = str.split(" ");
 
-console.log(arr);
-console.log(str);
+// console.log(arr);
+// console.log(str);
+
+// let str = "Welcome to Full Stack";
+// console.log(str.toLowerCase());
+// console.log(str.toLocaleLowerCase());
+
+// console.log(str.toUpperCase());
+// console.log(str.toLocaleUpperCase("TR"));
+
+// let str = "    Welcome to Full Stack     ";
+// console.log(str);
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+
+// let str = "clarusway@Clarusway.com is our e-mail address";
+
+// console.log(str.startsWith("clarusway"));
+// console.log(str.startsWith("Clarusway"));
+// console.log(str.startsWith("Clarusway", 10));
+
+// let email = "clarusway@Clarusway.com";
+
+// console.log(email.endsWith("com"));
+
+let str = "     Clarusway Full Stack";
+
+let str1 = str.trim();
+let str2 = str1.slice(0, 9);
+let str3 = str2.toUpperCase();
+
+console.log(str3);
+console.log(str.trim().slice(0, 9).toUpperCase());
